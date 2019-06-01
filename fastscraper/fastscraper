@@ -6,6 +6,16 @@ echo "fastscraper ver. $releaseDate"
 username=""
 password=""
 
+#allow login username as first argument
+if [ -z ${1+x}] 
+	username="$1"
+fi
+
+#allow login password as second argument
+if [ -z ${2+x}] 
+	password="$2"
+fi
+
 # Dictionary (auto, es, de, fr, en)
 lang=auto
 
