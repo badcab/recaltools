@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-releaseDate=01.06.2019 #dd.MM.yyyy
+releaseDate=2019.06.01 #yyyy.MM.dd
 echo "fastscraper ver. $releaseDate"
 
 # Set ScreenScraper credentials
